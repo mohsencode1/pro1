@@ -1,0 +1,127 @@
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(238, 222, 222);
+
+
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+ul{
+    margin: 0%;
+    padding: 0%px;
+
+}
+header {
+    background: cadetblue;
+    color: rgb(237, 226, 226);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: black 5px solid;
+    
+ 
+}
+header a{
+      color: aquamarine;
+      text-decoration: none;
+      font-size: 20px;
+
+
+}
+header li{
+    float: right;
+    display: block;
+    padding: 0 20px 0 20px;
+
+}
+
+header #brand{
+    float: right;
+
+}
+header #brand h1{
+    margin: 0%;
+    color: rgb(75, 103, 94);
+
+}
+header nav{
+    float: left;
+    margin-top: 10px
+}
+header .curent a{
+    
+    font-weight: bold;
+    color: aquamarine;
+ 
+}
+header a:hover{
+    color: azure;
+    font-weight: bold;
+}
+#mm{
+    min-height: 400px;
+    border-bottom: 5px solid;
+    background: url("../pegs/dd.jpg")  no-repeat center;
+    background-size: cover;
+}
+#newsletter{
+    padding: 15px;
+    color: rgb(37, 95, 95);
+    background: cadetblue;
+    border-bottom: gainsboro 5px solid;
+    
+}
+#newsletter h1{
+    float: right;
+
+    
+}
+#newsletter form{
+    float: left;
+    margin-top:134px;
+
+}
+#newsletter input[tyep="email"]{
+    padding: 4px;
+    height: 44px;
+    width: 250px;
+}
+#newsletter input[tyep="passowrd"]
+{
+    padding-top: 2%;
+
+
+}    
+
+.button{
+    height: 20px;
+    background: darkcyan;
+    padding-left: 20px;
+    padding-right: 4px; }
+
+#boxes{
+    margin-top: 20px;
+} 
+#boxes .box{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    
+}   
+.rr{
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(128, 184, 184);
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+}
